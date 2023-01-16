@@ -35,13 +35,13 @@ import 'package:since_date/since_date.dart';
 - **English** use
 
 ```dart
- SinceDate(DateTime.now(),local: "en",)
+ SinceDate(DateTime.now(),local: "en",) // Since Two Days
 ```
 
 - **Arabic** use
 
 ```dart
- SinceDate(DateTime.now(),local: "ar",)
+ SinceDate(DateTime.now(),local: "ar",) // منذ يومان
 ```
 
 ## Follow Me On Linkedin
