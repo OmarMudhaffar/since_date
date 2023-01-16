@@ -21,7 +21,7 @@ Support Both English And Arabic Languages
 
 To use SinceDate in your project, add the since_date package to pubspec.yaml: 
 ```dart
-since_date 0.0.1
+since_date: 0.0.2
 ```
 
 Import the package to use it:
