@@ -11,31 +11,39 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Convert The DateTime Into Humanized text
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Support Both English And Arabic Languages
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use SinceDate in your project, add the since_date package to pubspec.yaml: 
+```dart
+since_date 0.0.1
+```
+
+Import the package to use it:
+
+```dart
+import 'package:since_date/since_date.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+- **English** use
 
 ```dart
-const like = 'sample';
+ SinceDate(DateTime.now(),local: "en",)
 ```
 
-## Additional information
+- **Arabic** use
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
-# flutter_pkg
-# since_date
+```dart
+ SinceDate(DateTime.now(),local: "ar",)
+```
+
+## Follow Me On Linkedin
+
+[OmarMudhaffar](https://www.linkedin.com/in/omarmudhaffar)

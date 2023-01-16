@@ -1,5 +1,5 @@
 name: since_date
-description: A new Flutter package project.
+description: Convert The DateTime Into Humanized text
 version: 0.0.1
 homepage: https://github.com/OmarMudhaffar/since_date
 environment:
